@@ -1,0 +1,17 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.test</groupId>
+    <artifactId>my-spring-cloud-eureka-client</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>client-service-consumer</artifactId>
+  <dependencies>
+	<dependency>
+		<!-- 增加用户API的依赖 -->
+		<groupId>com.test</groupId>
+  		<artifactId>client-api</artifactId>
+	    <version>${project.version}</version>
+	</dependency>
+  </dependencies>
+</project>
